@@ -1,0 +1,994 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    /* background p/img de fondo */
+    background: url(./Images/Comedor-blanco.jpg);
+    background-size: cover;
+    display: flex;
+    /* no wrap - sin envoltura */
+    flex-flow: column nowrap;
+    height: 80vh;
+}
+
+.brand-container {
+    display: flex;
+}
+
+.img-brand {
+    border-radius: 33px;
+    margin: 30px 150px 1px 150px;
+    transition: 500ms;
+    box-shadow: 8px 8px 20px 12px #9b64cf;    
+}
+.img-brand:hover {
+    opacity: 0.3;
+}
+
+.titulo {
+    color: #8d2fe5;
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 10px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.menu {
+    color: #8d2fe5;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav {
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 15px;
+    background-color: #93a5f8;
+    height: 60px;
+}
+.responsive {
+    background: white !important;
+    border-radius: 13px !important;
+}
+.navbar-toggler {
+    color: #8a2be2;
+}
+
+/* Alinear la //del menu */
+nav li {
+    display: inline;
+    margin: 0 0 0 85px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+a:hover {
+    color: #fd7e14;
+    text-decoration: underline;
+}
+
+.img-inicio {
+    margin-left: 4%;
+    margin-top: 2%;
+    height: 250px;
+}
+
+/* HOME */
+.contenedor-video {
+    background: #bbbbbb;
+    display: flex;
+    margin: 35px;
+}
+.video {
+    width: 600px;
+    /* margin: 1em auto; */
+    margin-left: 15px;
+    padding: 3em 0;
+}
+.p-atencion {
+    width: 100%;
+    font-size: 35px;
+    font-style: oblique;
+    color: #821ce1;
+    margin-top: 10%;
+    text-align: center;
+}
+.p-atencion:before {
+    content: "★__";
+}
+.p-video {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 25px;
+    justify-content: center;
+}
+.img-copas {
+   display: flex;
+   justify-content: center;
+   width: 500px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   margin-right: 15px;
+}
+.carousel {
+    margin-top: 30px;
+}
+.carousel-control-prev-icon {
+    background-color:aqua;
+}
+.carousel-control-next-icon {
+    background-color:aqua ;
+}
+.aside {
+    background-color: #bbbbbb;
+    padding: 15px;
+    margin-top: 90px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 80px;
+}
+h2 {
+    color: rgb(83, 83, 243);
+}
+.p-home {
+    font-size: 18px;
+    font-weight: bold;
+}
+.focaccia{
+    color: white;
+}
+.calorias {
+    color: rgb(97, 10, 35);
+}
+.hamburguesas {
+    color: black;
+}
+.parrafo-home {
+    color: rgb(70, 13, 215);
+    font-size: 30px;
+}
+.mision {
+    font-weight: bold;
+}
+footer {
+    margin: 40px;
+}
+
+/* Acera de - N O S O T R O S */
+.img-inicio-nosotros {
+    margin-left: 4%;
+    margin-top: 2%;
+    height: 250px;
+}
+.titulo-nosotros {
+    font-size: 50px;
+    margin-top: 50px;
+}
+main {
+    height: 96%;
+}    
+.container-acerca {
+    display: flex;
+    background: #c0c8eb;
+    margin: 34px;
+}    
+.principal-img {
+    margin: 2%;
+    width: 95%;
+}  
+.cocina {
+    float: left;
+    margin: 0px 20px 40px 0px;
+}
+.parrafo-acercaDe {
+    margin: 5%;
+    text-align: justify;
+    font-size: 18px;
+}
+strong {
+    font-style: italic;
+}
+/* Contacto */
+.header-contacto {
+    /* background p/img de fondo */
+    background: url(./Images/Comedor-blanco.jpg);
+    background-size: cover;
+    display: flex;
+    /* no wrap - sin envoltura */
+    flex-flow: column nowrap;
+    height: 55vh;
+}
+.parrafo-contacto {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.banner {
+    height: 20%;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+/* Sucursal */
+.header-sucursal {
+ /* background p/img de fondo */
+ background: url(./Images/Comedor-blanco.jpg);
+ background-size: cover;
+ display: flex;
+ /* no wrap - sin envoltura */
+ flex-flow: column nowrap;
+ height: 55vh;
+}
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+.titulo-principal-sucursal {
+    text-align: center;
+}
+.p-sucursal {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.dirSanFer {
+    margin-left: 400px;
+    text-decoration: none;
+}
+h5 {
+    margin-top: 40px;
+}
+.direccion {
+    margin-top: 40px;
+    margin-left: 435px;
+}
+.items {
+    line-height: 2;
+    list-style-type: none;
+}
+.items:before {
+    content: "★  ";
+}
+.aSucursal {
+    text-decoration: none;
+}
+.mapa-contenido {
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+/* Esto es Registrarse */
+
+h1 .titulo-iniciar {
+    font-size: 40px;
+    margin-top: 20px;
+    align-self: center;
+}
+.registro-iniciar {
+    width: 98%;
+    height: 100%;
+    margin-left: 1%;
+    margin-top: 60px;
+}
+.formIniciar {
+    display: flex;
+    background-image: url(/Images/plato-blanco-vacio.jpg);
+    align-items: center;
+    justify-content: center;
+    width: 96%;
+    height: 100vh;
+    margin-left: 30px;
+    margin-right: 25px;
+    border-radius: 20px;
+}
+.login-body {
+    background: #1d5c85;
+    width : 400px;
+    min-width: 276px;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: solid 4px #8676dc;
+    margin-top: 30px;
+}
+.formIniciar h6 {
+    text-align: center;
+    background:#8676dc ;
+    color: white;
+    padding: 20px;
+}
+.form-login {
+    margin-top: 30px;
+}
+.login-body img {
+    width: 150px;
+    display: block;
+    /* Con auto se centra la imagen */
+    margin: 20px auto;
+}
+.login-body input {
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 80%;
+    padding-left: 10px;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 3px;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+.login-body input[type="password"] {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, .596);
+}
+::placeholder {
+    font-size: 1rem;
+    color: rgba(157, 15, 15, 0.596);
+}
+.login-body input:hover {
+    transition: .5s;
+    border: 3px solid #1381ca;
+    color: #480ded;
+    font-weight: bold;
+}
+input[type="submit"] {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 50%;
+    height: 40px;
+    border: 3Px solid #2980b9;
+    background: #43c3e7;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    transition: all .5s ease;
+    box-shadow: 0px 1px 0px hsl(180,100%,40%),
+    0px 2px 0px hsl(180,100%,38%),
+    0px 3px 0px hsl(180,100%,37%),
+    0px 4px 0px hsl(180,100%,36%),
+    0px 5px 0px hsl(180,100%,35%),
+    0px 6px 0px hsl(180,100%,34%),
+    0px 7px 0px hsl(180,100%,33%),
+    0px 8px 0px hsl(180,100%,32%),
+    0px 9px 0px hsl(180,100%,31%),
+    0px 10px 0px hsl(180,100%,20%),
+    0px 11px 10px #000;
+}
+input[type="submit"]:hover {
+    color: #821ce1;
+    border: 3px solid #1381ca;
+    background: #fd7e14;
+} 
+.recuperar {
+    font-weight: 600;
+}   
+/* REGISTRARSE */
+.header-registrarse {
+    background: url(./Images/Comedor-blanco.jpg);
+    background-size: cover;
+    display: flex;
+    height: 100%;
+    width: 100%;
+ }
+.header-registrarse h1 {
+    margin-left: 2px;
+}
+.container-fluid-registrarse li {
+    display: inline-block;
+    width: 100%;
+    margin-left: 1px;
+}
+.container-fluid-registrarse a {
+    margin-left: 5px;
+}
+
+
+/* Contenedor de Registro */
+.registroPagina {
+    margin-left: 57%;
+}
+.titulo-registrarse {
+    background: #8676dc;
+    padding: 20px;
+    border-radius: 10Px;
+    text-align: center;
+    width: 51.3%;
+    font-size: 30px;
+    color: white;
+}
+form {
+    margin: 80px 0;
+    margin-left: 20px;
+    margin-right: 10px;
+    background: rgba(180, 225, 227, 0.733);
+}
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0 10px;
+    margin-left: 20px;
+}
+.input-agenda {
+    display: block;
+    margin: 0 0 20px;
+    margin-left: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.enviar{
+    width: 35% !important;
+    margin-left: 30px !important;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+    transition: 1s all;
+}
+
+.row {
+    background-color:white;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.col-md-4 {
+    background-color: #05395f;
+    color: white;
+   }
+
+.card-title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.card-text-1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 18px;
+}
+.card-text-2 {
+    font-size: 18px;
+    margin-left: 18px;
+}
+.text-body-secondary {
+    margin-left: 18px;
+    color: white;
+}
+/* Clientes */
+.header-cliente {
+    /* background p/img de fondo */
+    background: url(./Images/Comedor-blanco.jpg);
+    background-size: cover;
+    display: flex;
+    /* no wrap - sin envoltura */
+    flex-flow: column nowrap;
+    height: 40vh;
+}
+.container-cliente {
+    background-color: #816bff;
+    color: white;
+    margin: 50px;
+    height: 45vh;
+    padding-top: 50px;
+}
+.h1-cliente {
+    height: 80px;
+}
+.max-768 {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 18px;
+    text-align: center;
+}
+.exito {
+    background-color: #a5d6eb;
+    width: 70%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 40px;
+    padding-left: 25PX;
+    font-weight: bold;
+    box-shadow: 5px 3px 0px hsl(33,42%,40%);
+}    
+li {
+    margin-left: 25px;
+}
+.cris{
+    font-size: 18px;
+    font-weight: bold;
+}
+.cris-1 {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+    .brand-container {
+       display: flex;
+    }
+    /* Margin desde el top */
+    .img-brand {
+        margin: 5px 75px 10px 50px;
+        width: 150px;
+    }
+    .titulo {
+        color: #8d2fe5;
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+        letter-spacing: 5px;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-right: 50px;
+    }
+    .img-inicio {
+        margin-left: 2%;
+        margin-top: 3%;
+        width: 200px;
+    }
+    nav {
+        width: 98%;
+        margin-left: 1%;
+        margin-top: 1px;
+        background-color: #93a5f8;
+        height: 70px;
+    }
+    /* Alinear la //del menu */
+    nav li {
+        display: flow-root;
+        margin: 0 0 0 65px;
+    }
+    nav a {
+        color: #FEF;
+        font-size: 14px;
+        text-decoration: none;
+        padding-top: 2px;
+    }
+    .aside {
+        margin-top: 20px;
+    }
+    .mision {
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: 0%;
+    }
+    .carousel {
+        margin-top: 20px;
+    }
+    .p-home {
+        font-size: 12px;
+    }
+    /* Acerca de */
+    .titulo-nosotros{
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    .parrafo-acercaDe {
+        margin: 2%;
+        font-size: 16px;
+    }
+    .img-inicio-nosotros{
+        width: 220px;
+    }
+    .header-contacto h1 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    .header-contacto 
+    nav a {
+        font-size: 18px;
+    }
+    .header-contacto nav ul {
+        word-spacing: 15px;
+    }
+    .header-contacto nav li {
+        display: inline;
+        margin-left: 0;
+    }
+    
+    .container-fluid-sucursal {
+        display: flex;
+    }
+
+    .dirSanFer {
+        margin-left: 25%;
+    }
+    .direccion {
+        margin-left: 25%;
+    }
+    .mapa-contenido {
+        width: 580px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .checkbox {
+        margin-left: 10px;
+    }
+    .max-768 {
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 18px;
+        text-align: center;
+    }
+    .parrafo-contacto { 
+        margin-left: 40px;
+    }
+    .img-fluid {
+        max-width: 90%;
+        height: 100%;
+    }
+    .card-title {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .card-text-1 {
+        font-size: 12px;
+        margin-left: 18px;
+    }
+    .card-text-2 {
+        font-size: 14px;
+        margin-left: 18px;
+    }
+/* REGISTRARSE */
+    .registro-iniciar {
+        width: 98%;
+        height: 100%;
+        margin-top: 25px;
+    }
+    .formIniciar form{
+        width: 90%;
+        margin-top: 30px;
+    } 
+    .formIniciar h6 {
+        padding: 15px;
+    }
+    .login-body input {
+        display: block;
+        margin-top: 20px;
+        margin: auto;
+        height: 50px;
+        width: 80%;
+        padding-left: 10px;
+        color: #fff;
+        border: 3px solid #fff;
+        border-radius: 3px;
+        background-color: transparent;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-size: 1rem;
+        outline: none;
+    }
+    .login-body input[type="password"] {
+        margin-top: 20px;
+        font-size: 1rem;
+        color: rgba(255, 255, 255, .596);
+    }
+    ::placeholder {
+        font-size: 1rem;
+        color: rgba(157, 15, 15, 0.596);
+    }
+    .login-body input:hover {
+        transition: .5s;
+        border: 3px solid #1381ca;
+        color: #480ded;
+        font-weight: bold;
+    }
+    input[type="submit"] {
+        display: block;
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 30px;
+        width: 30%;
+        height: 40px;
+        border: 3Px solid #2980b9;
+        background: #43c3e7;
+        border-radius: 25px;
+        font-size: 18px;
+        color: white;
+        cursor: pointer;
+        outline: none;
+        transition: all .5s ease;
+        box-shadow: 0px 1px 0px hsl(180,100%,40%),
+        0px 2px 0px hsl(180,100%,38%),
+        0px 3px 0px hsl(180,100%,37%),
+        0px 4px 0px hsl(180,100%,36%),
+        0px 5px 0px hsl(180,100%,35%),
+        0px 11px 10px #000;
+    }
+    input[type="submit"]:hover {
+        color: #821ce1;
+        border: 3px solid #1381ca;
+        background: #fd7e14;
+    } 
+    
+}    
+
+@media screen and (max-width: 276px) {
+    .brand-container {
+        display: block;
+    }
+    .header {
+        /* background p/img de fondo */
+        background: url(./Images/Comedor-blanco.jpg);
+        background-size: cover;
+        display: flex;
+        height: 99%;
+        width: 99%;
+    }
+    /* Margin desde el top */
+    .img-brand {
+        margin: 10px 12px 10px 50px;
+        width: 140px;
+        height: 80px;
+    }
+    .titulo {
+        color: #8d2fe5;
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin: 10px 12px 10px 50px;
+    }
+    .img-inicio {
+        display: flex;
+        margin-left: 2%;
+        margin-top: 5%;
+        width: 50%;
+    }
+    .navbar {
+        display: inline-block;
+        margin-left: 0;
+        background-color: #93a5f8;
+    }
+    /* Alinear la //del menu */
+    nav li {
+        display: flex;
+        margin: 0 0 0 65px;
+        color: white;
+    }
+    nav a {
+        color: #8d2fe5;
+        text-decoration: none;
+        padding: 5px;
+        margin-left: 50%;
+        margin-top:0 ;
+    }
+    .contenedor-video {
+        display: inline-block;
+        background: #bde2c8;
+        margin: 0%;
+        width: 100%;
+        height: 100%;
+    }
+    .video {
+        width: 30%;
+        /*height: 100%; */
+        align-items: center;
+    }
+    .p-atencion {
+        width: 99%;
+        margin-top: 5px;
+        font-size: 18px;
+        text-align:justify;
+        font-weight: bold;
+        word-spacing: 4px;
+    }
+    .p-atencion:before {
+        content: "★_";
+        margin-left: 4px;
+    }
+    .p-video {
+        font-size: 18px;
+        margin-left: 6px;
+        width: 90%;
+    }
+    .contenedor-video .img-copas {
+        width: 80%;
+        margin: 0;
+        align-items: center;
+    }
+    .row {
+        display: flex;
+        width: 98%;
+        align-items: center;
+        margin-top: 25px;
+        margin-left: 16px;
+    }
+    .aside {
+        
+        margin-bottom: 20px;
+    }
+    .parrafo-home {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .calorias {
+        font-size: 14px;
+        font-weight: bold;
+        padding-bottom: 0;
+    }
+    footer {
+        width: 100%;
+        margin-left: 0px;
+    }
+    footer .contenedor {
+        margin-left: 1px !important;
+    }
+    /* Nosotros */
+    .titulo-nosotros {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .img-inicio-nosotros {
+        margin-left: 2%;
+        margin-top: 5%;
+        margin-bottom: 3%;
+        width: 140px;
+        height: 250px;
+    }
+    .container-acerca {
+        display: inline-block;
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .cocina {
+        width: 99%;
+        margin-left: 2px;
+    }
+    .parrafo-acercaDe p {
+        margin-left: 2px;
+        margin-right: 2px;
+        font-size: 13px;
+    }
+    /* CONTACTO */
+    .header-contacto {
+        height: 100%;
+        width: 100%;
+    }
+    .header-contacto h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .container-fluid-contacto a {
+        display: inline-block;
+        width: 100%;
+        margin-left: 15px;
+        
+    }
+    .aside-inicio-contacto {
+        margin-top: 25px;
+        width: 100%;
+        color:#2b029b;
+    }
+    .parrafo-contacto {
+        font-size: 28px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    .img-fluid {
+        width: 98%;
+        padding: 10px;
+    } 
+    .col-md-4 {
+        background: #05395f;
+        width: 98%;
+        margin-right: 2px;
+    }
+    .card-text-1 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 18px;
+    }
+    .card-text-2 {
+        font-size: 15px;
+    }
+    /* SUCURSAL */
+    .header-cliente {
+        /* background p/img de fondo */
+        background: url(./Images/Comedor-blanco.jpg);
+        background-size: cover;
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+    .header-cliente h1 {
+        font-size: 28px;
+        margin-top: 0%;
+    }
+    .mapa h4 {
+        font-size: 28px;
+    }
+    .p-sucursal {
+        margin-top: 7px;
+        margin-left: 5px;
+        padding: 2px;
+    }
+    h5 .dirSanFer {
+        margin-top: 5px;
+        margin-left: 1px;
+        font-size: 18px;
+    }
+    .mapa .direccion {
+        width: 100%;
+        margin-left: 1px;
+        margin-top: 0px;
+    }
+    .direccion .items {
+        margin-left: 0px;
+    }
+    iframe {
+        width: 90vw;
+        height: 50vh;
+    }
+    .input-agenda {
+        width: 250px;
+        margin-left: 0;
+    }
+    /* REGISTRARSE */
+    .registro-iniciar {
+        width: 100%;
+        height: 100%;
+        margin-top: 15px;
+    }
+    .formIniciar form{
+        margin-left: 0px;
+        margin-top: 15px;
+    } 
+    .formIniciar h6 {
+        padding: 5px 0 5px 0;
+    }
+    
+    .login-body input {
+        width: 90%;
+    }
+    input[type="submit"] {
+        width: 60%;
+    }
+    /* Contenedor de Registro */
+    .titulo-registrarse {
+        padding: 5px;
+        width: 98%;
+        font-size: 20px;
+    }
+    form {
+        margin-left: 3px;
+    }
+    .input-agenda {
+        margin-left: 5px;
+        padding: 5x 15px;
+        width: 90%;
+    }
+    .enviar{
+        width: 70% !important;
+    }
+    /* Clientes */
+    .container-cliente {
+        width: 98%;
+        height: 100%;
+        margin-left: 2px;
+    }
+    .max-768 {
+        width: 95%;
+        margin-left: 5px;
+    }
+ 
+}
+   

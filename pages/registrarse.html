@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA COCINA DE CRIS - Registrarse</title>
+    <script src="https://kit.fontawesome.com/e15e8c34af.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="/Images/logo_Cris.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+  </head>
+
+  <body>
+    <header class="header-cliente" >
+      <div class="menu">
+        <div class="brand-container">
+          <a href="/pages/clientes.html"><img class="img-brand" src="../Images/logo_Cris.png" width="180" height="84" alt="Logo"></a>
+          <h1 class="titulo">Registrarse en La Cocina de Cris</h1>
+        </div>
+        <nav class="navbar navbar-expand-md">
+          <div class="container-fluid-contacto">
+            <button class="navbar-toggler responsive" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation" style><span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" navbar-collapse collapse-show" id="navbarNav">
+              <li><a href="/index.html">Inicio</a></li>
+              <li><a href="/pages/acercaDe.html">Nosotros</a></li>
+              <li><a href="/pages/contacto.html">Contacto</a></li>
+              <li><a href="/pages/sucursal.html">Sucursales</a></li>
+              <li><a href="/pages/registrarse.html"></a>Registrarse o Iniciar Sesión</li>
+              <li><a href="/pages/clientes.html">Nuestros Clientes</a></li>
+              </ul>
+            </div>
+          </div>   
+        </nav>
+      </div>
+    </header>  
+
+    <main class="registro-iniciar">
+      <section class="frm-1">
+        <div class="formIniciar">
+          <div class="login-body">
+            <img src="../Images/img-login.png" alt="Login">
+            <h6>Bienvenido a La Cocina de Cris</h6>
+            <form class="form-login">
+              <input type="text" required placeholder="Email o Nombre de Usuario">
+              <input type="password" required placeholder="Contraseña">
+              <input type="submit" value="Ingresar">
+              <div class="recuperar">
+                <a href="/pages/recuperar.html">¿Has Olvidado tu Contraseña?</a>
+              </div>
+              <div class="registroPagina">Quiero hacer el: 
+              <a href="#Registro">Registro</a></div>
+            </form>    
+          </div>
+        </div>
+      </section>
+
+      <section class="frm-2">
+        <form>
+          <div class="titulo-registrarse">Registro</div>
+          <label for="apellido">Apellido</label>
+          <input type="text" id="apellido" class="input-agenda"required>
+          <label for="nombres">Nombres</label>
+          <input type="text" id="nombres" class="input-agenda"required>
+          <label for="correoelectronico">Correo Electrónico</label>
+          <input type="email" id="correoelectronico" class="input-agenda" required placeholder="email@dominio.com">
+
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" class="input-agenda" required placeholder="(XX) XXXX XXXX">
+
+          <label for="mensaje">Mensaje</label>
+          <textarea cols="70" rows="10" id="mensaje" class="input-agenda" required></textarea>
+            <fieldset>
+              <legend class="contac">¿Cómo le gustaría que lo contactemos?</legend>
+
+              <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+              
+              <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+              
+              <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+            </fieldset>
+
+          <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de LA COCINA DE CRIS?</label>                
+                  
+          <input type="submit" value="Enviar formulario" class="enviar">
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="contenedor con-registro bg-info-subtle text-dark pt-5 pb-1">
+        <div class="container text-center text-md-start">
+          <div class="row text-center text-md-start">
+            <hr class="mb-4">
+            <div class="text-center mb-2">
+              <p>
+                Copyright Todos los derechos reservados:  
+                <a href="#">
+                  <strong class="text-primary">La Cocina de Cris - 2024</strong>
+                </a>
+              </p>
+              <p class="cris-1">Diseñado por Cristina Correa</p>
+              <div class="text-center">
+                <ul class="list-unstyled list-inline">
+                  <li class="list-inline-item">
+                    <a href="#" class="text-dark"> <i class="fab fa-facebook"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="text-dark"> <i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="text-dark"> <i class="fab fa-google-plus"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="text-dark"> <i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="text-dark"> <i class="fab fa-youtube"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </footer>
+    <br>
+     
+    <!-- <script src="JS/index.js"></script> -->
+  </body>
+</html>

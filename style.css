@@ -398,7 +398,6 @@ input[type="submit"]:hover {
     margin-left: 5px;
 }
 
-
 /* Contenedor de Registro */
 .registroPagina {
     margin-left: 57%;
@@ -518,6 +517,80 @@ li {
     font-size: 10px;
     font-weight: bold;
 }
+/* RECUPERAR */
+.bodyRecuperar {
+    margin-top: 20px;
+    background-color: #b8d1e1
+}
+.containerRecuperar {
+    background: white;
+    width: 500px;
+    padding: 20px;
+    /* Para Centrar con auto */
+    margin: auto;
+}  
+h2 {
+    font-size: 16px;
+    text-align: center;
+    /* 20 arriba/abajo y 10 a los costados */
+    padding: 20px 10px;
+}
+.correo {
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: solid rgb(160, 156, 156) 3px;
+    padding: 20px;
+    outline: none;
+    margin-bottom: 30px;
+}
+.correo:focus {
+    border-bottom: solid rgb(200, 19, 79) 3px;
+}
+.form_button {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.salir {
+    background: rgb(103, 79, 220);
+    text-decoration: none;
+    padding: 5px 20px;
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.salir:hover {
+    background: red;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+} 
+.enviarRecuperar {
+    background: green;
+    padding: 8px 20px;
+    color: white;
+    border: none;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.enviarRecuperar:hover {
+    background: red;
+    font-weight: bold;
+}
+.header-pedido {
+    /* background p/img de fondo */
+    background: url(./Images/Comedor-blanco.jpg);
+    background-size: cover;
+    display: flex;
+    /* no wrap - sin envoltura */
+    flex-flow: column nowrap;
+    height: 35vh;
+}
 
 @media screen and (max-width: 1000px) {
     .brand-container {
@@ -539,8 +612,8 @@ li {
     }
     .img-inicio {
         margin-left: 2%;
-        margin-top: 3%;
-        width: 200px;
+        margin-top: 6%;
+        width: 220px;
     }
     nav {
         width: 98%;
@@ -551,8 +624,8 @@ li {
     }
     /* Alinear la //del menu */
     nav li {
-        display: flow-root;
-        margin: 0 0 0 65px;
+        display: inline-block;
+        margin: 0px 0 0 45px;
     }
     nav a {
         color: #FEF;
@@ -871,7 +944,7 @@ li {
         display: inline-block;
         width: 100%;
         margin-left: 15px;
-        
+        word-spacing: normal;
     }
     .aside-inicio-contacto {
         margin-top: 25px;
@@ -901,6 +974,7 @@ li {
         font-size: 15px;
     }
     /* SUCURSAL */
+    
     .header-cliente {
         /* background p/img de fondo */
         background: url(./Images/Comedor-blanco.jpg);
@@ -988,6 +1062,22 @@ li {
     .max-768 {
         width: 95%;
         margin-left: 5px;
+    }
+    /* RECUPERAR */
+    .containerRecuperar {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .containerRecuperar h2 {
+        text-align: left;
+    }
+    .formRecuperar {
+        width: 100%;
+        margin: 0 0;
+    }
+    .con-registro {
+        padding: 0;
     }
  
 }

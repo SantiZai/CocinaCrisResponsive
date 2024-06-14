@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LA COCINA DE CRIS - Contacto</title>
+    <title>LA COCINA DE CRIS - Iniciar Sesión</title>
     <script src="https://kit.fontawesome.com/e15e8c34af.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="../Images/logo_Cris.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -17,8 +17,8 @@
     <header class="header-contacto" >
       <div class="menu">
         <div class="brand-container">
-          <a href="contacto.html"><img class="img-brand" src="../Images/logo_Cris.png" width="180" height="84" alt="Logo"></a>
-          <h1 class="titulo-nosotros">Contáctanos en La Cocina de CRIS</h1>
+          <a href="iniciar.html"><img class="img-brand" src="../Images/logo_Cris.png" width="180" height="84" alt="Logo"></a>
+          <h1 class="titulo-nosotros">Iniciar Sesión en La Cocina de CRIS</h1>
         </div>
         <nav class="navbar navbar-expand-md">
           <div class="container-fluid-contacto">
@@ -26,54 +26,50 @@
             </button>
             <div class=" navbar-collapse collapse-show" id="navbarNav">
               <ul>
-                <li><a href="/index.html">Inicio</a></li>
-                <li><a href="/pages/acercaDe.html">Nosotros</a></li>
-                <li><a href="/pages/contacto.html"></a>Contacto</li>
-                <li><a href="/pages/sucursal.html">Sucursales</a></li>
-                <li><a href="/pages/iniciar.html">Iniciar Sesión</a></li>
-                <li><a href="/pages/clientes.html">Clientes</a></li>
+                <li><a href="/index.html">Volver a Inicio</a></li>
+                <li><a href="/pages/contacto.html">Contacto</a></li>
+                <li><a href="/pages/iniciar.html"></a>Iniciar Sesión</li>
               </ul>
             </div>
           </div>      
         </nav>
-        
-        <div class="aside-inicio-contacto">
-          <p class="parrafo-contacto">La Buena Comida esta aquí</P>
-          <p class="parrafo-contacto">¿Te la vas a perder?</p> 
-        </div>
       </div>
     </header>  
-    
-    <div class="card mb-3" style="max-width: 100%;">
-      <div class="row g-0">
-        <div class="col-md-8">
-          <img src="/Images/contacto_01.jpg" class="img-fluid rounded-start" alt="Imagen de contacto">
-        </div>
-        <div class="col-md-4">
-          <div class="card-body contac"></div>
-            <h6 class="card-title">Estamos para Ayudarte</h6>
-            <p class="card-text-1">CANALES DISPONIBLES</p>
-            <p class="card-text-2"><strong>Nuestros Teléfonos</strong> desde Cualquier Lugar del País</p>
-            <p class="card-text-1">0810-999-5555 / 0800-333-5278</p>
-            <p class="card-text-2">Desde el Exterior</p>
-            <p class="card-text-1">+ 54-11-5795-2358</p>
-            <p class="card-text-1">Y agendanos en <strong>WHATSAPP</strong></p>
-            <p class="card-text-1">11-3925-2839</p>
-            <p class="card-text-2">Nuestro <strong> EMAIL: </strong> lacocinadecris@gmail.com</p>
+
+    <main class="registro-iniciar">
+      <section class="frm-1">
+        <div class="formIniciar">
+          <div class="login-body">
+            <img src="../Images/img-login.png" alt="Login">
+            <h6>Bienvenido a La Cocina de Cris</h6>
+            <form class="form-login">
+              <input type="text" required placeholder="Email o Nombre de Usuario">
+              <input type="password" required placeholder="Contraseña">
+              <input type="submit" value="Ingresar">
+              <a href="./pedido.html"></a>
+              <div class="recuperar">
+                <a href="/pages/recuperar.html">¿Has Olvidado tu Contraseña?</a>
+              </div>
+              <div class="registroPagina">Quiero hacer el: 
+              <a href="./registrarse.html">Registro</a></div>
+            </form>    
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
 
     <footer>
-      <div class="contenedor bg-info-subtle text-dark pt-5 pb-1">
+      <div class="contenedor con-registro bg-info-subtle text-dark pt-5 pb-1">
         <div class="container text-center text-md-start">
           <div class="row text-center text-md-start">
             <hr class="mb-4">
             <div class="text-center mb-2">
-              <p>Copyright Todos los derechos reservados: <a href="#"><strong class="text-primary">La Cocina de Cris</strong>
-              </a></p>
-              
+              <p>
+                Copyright Todos los derechos reservados:  
+                <a href="#">
+                  <strong class="text-primary">La Cocina de Cris</strong>
+                </a>
+              </p>
               <p class="cris-1">Diseñado por Eq.12-CaC-24120-2024</p>
 
               <div class="text-center">
@@ -101,6 +97,7 @@
       </div>    
     </footer>
     <br>
-    <script src="JS/index.js"></script>
+     
+    <!-- <script src="JS/index.js"></script> -->
   </body>
 </html>
